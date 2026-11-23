@@ -1,0 +1,34 @@
+-Mostrar la primera parte funcionando una vez inicie el reto 
+RETOS – Segunda versión de la aplicación de gastos
+Objetivo: Una vez se tenga la primera versión funcional y se haya comprobado su ejecución tanto en Windows como en dispositivos móviles, implementar las siguientes mejoras:
+0. Implementar arquitectura modular
+- Separar el código en diferentes archivos y componentes.
+- Organizar la aplicación para facilitar su mantenimiento y escalabilidad.
+- Mantener en el componente principal (App.js) la administración del estado y la comunicación entre componentes.
+1. Mejorar el diseño del Header
+- Diseñar un encabezado más atractivo y profesional.
+- Incorporar el logo del SENA o un logo propio de la aplicación.
+- Mejorar la distribución de los elementos y su adaptación a dispositivos móviles.
+2. Recuperar y mostrar la información de cada gasto
+- Consultar los gastos registrados mediante la API.
+- Mostrar para cada gasto la siguiente información:
+  - Categoría.
+  - Descripción.
+  - Valor.
+- Organizar la información de manera clara y facilitar su lectura.
+3. Implementar un SELECT para seleccionar categorías
+- Crear un componente de selección de categorías.
+- Cargar dinámicamente las categorías disponibles.
+- Permitir seleccionar una categoría al momento de registrar un gasto.
+4. Validar que las categorías no se repitan
+- Implementar una validación para evitar categorías duplicadas.
+- Verificar que una categoría no exista antes de permitir su registro.
+- Mostrar un mensaje informativo cuando se intente registrar una categoría que ya existe.
+5. Implementar una pantalla de carga (Loading)
+- Crear una pantalla de carga inicial para la aplicación.
+- Mostrar el logo de la aplicación o del SENA.
+- Mantener visible la pantalla durante 3 segundos antes de iniciar la aplicación.
+- Incorporar una animación o indicador visual de carga.
+- Garantizar que la transición hacia la pantalla principal sea fluida.
+
+Resultado esperado: Una segunda versión de la aplicación con código modular, mejor experiencia de usuario, gestión adecuada de categorías, visualización completa de los gastos y una presentación inicial más profesional.

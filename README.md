@@ -14,8 +14,15 @@ Versión 2 del taller *MiGasto*:
 - **Pantalla de carga** de 3 segundos con logo y animación.
 - Filtro por categoría y eliminación de gastos.
 
-La explicación para la sustentación (arquitectura, props, flujos, datos, API y depuración)
-está en [docs/SUSTENTACION.md](docs/SUSTENTACION.md).
+## Documentación
+
+Todo está en la carpeta [docs/](docs/README.md):
+
+- [Guía para entender el código](docs/GUIA_DEL_CODIGO.md): capas, diagramas de secuencia y
+  de estados, conceptos de React con ejemplos y preguntas del profesor con respuesta.
+- [Sustentación](docs/SUSTENTACION.md): los entregables de la guía (árbol de componentes,
+  props, flujos, datos, API y depuración). También en [Word](docs/Sustentacion_MiGasto_Movil.docx).
+- [Guías del profesor](docs/guias-del-profesor/): los documentos originales de la actividad.
 
 ---
 
